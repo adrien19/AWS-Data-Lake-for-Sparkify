@@ -2,7 +2,7 @@
 
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides on AWS S3 in JSON logs on user activity on the app, as well as with JSON metadata on the songs in their app also on AWS S3.
 
-This project illustrates how to create a data lake in AWS using AWS S3 to build an ETL pipeline. In this project, a star schema was used where fact and dimension tables have been defined for a particular analytic focus. The ETL pipeline is used to transfer data from AWS S3 into spark script for data extraction, then transformation is applied before loading the data into tables back in another AWS S3 bucket for analytic team to use.
+This project creates a data lake in AWS using AWS S3 to build an ETL pipeline. In this project, a star schema was used where fact and dimension tables have been defined for a particular analytic focus. The ETL pipeline is used to transfer data from AWS S3 into spark script for data extraction, then transformation is applied before loading the data into tables back in another AWS S3 bucket for analytic team to use.
 
 
 ## Getting Started
